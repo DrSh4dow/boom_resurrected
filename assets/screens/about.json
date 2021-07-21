@@ -1,0 +1,57 @@
+{
+	"name": "about",
+	"parent": "home",
+	"bg": "screenbg1.png",
+	"layout": {
+		"styles": {
+			"default": {
+				"font": "pf_tempesta_seven_bold.ttf",
+				"character-size": 14,
+				"spacing": 15
+			},
+			"version": {
+				"font": "pf_tempesta_seven_bold.ttf",
+				"character-size": 10,
+				"spacing": 5
+			}
+		},
+		"elements": [
+			{
+				"type": "image",
+				"name": "lang_en",
+				"src": "uk.png",
+				"size": [30, 16],
+				"interactable": true,
+				"position": [5, 5]
+			},
+			{
+				"type": "image",
+				"name": "lang_it",
+				"src": "it.png",
+				"size": [30, 16],
+				"interactable": true,
+				"position": [40, 5]
+			},
+			{
+				"type": "text",
+				"string": "Lifish - (c) 2018 Giacomo Parolini\nLifish is free software, licensed under\nthe Lifish License\n(silverweed.github.io/lifish-license.txt)\nThis game uses the Lifish engine to create\na clone of \"BOOM\" by Federico Filipponi.\nCreated by Giacomo Parolini, aka silverweed.\n\nContact: silverweed1991@gmail.com\nCode: github.com/silverweed/lifish\n"
+			},
+			{
+				"type": "text",
+				"name": "back",
+				"string": "!back",
+				"interactable": true,
+				"style-override": {
+					"character-size": 20,
+					"spacing": 20
+				}
+			},
+			{
+				"type": "text",
+				"string": "{{FULL_VERSION}}",
+				"style": "version",
+				"position": [ 5, -18 ]
+			}
+		]
+	}
+}

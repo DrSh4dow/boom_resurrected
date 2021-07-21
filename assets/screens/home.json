@@ -1,0 +1,94 @@
+{
+	"name": "home",
+	"parent": null,
+	"bg": "screenbg1.png",
+	"layout": {
+		"styles": {
+			"default": {
+				"font": "pf_tempesta_seven_bold.ttf",
+				"character-size": 24,
+				"spacing": 15
+			},
+			"version": {
+				"font": "pf_tempesta_seven_bold.ttf",
+				"character-size": 10,
+				"spacing": 5
+			}
+		},
+		"elements": [
+			{
+				"type": "image",
+				"src": "boom_logo.png",
+				"size": [430, 171]
+			},
+			{
+				"type": "text",
+				"string": "Remake by Silverweed",
+				"style-override": {
+					"shadow-spacing": 1,
+					"character-size": 12,
+					"color": "orange",
+					"spacing": -20
+				}
+			},
+			{
+				"type": "image",
+				"name": "lang_en",
+				"src": "uk.png",
+				"size": [30, 16],
+				"interactable": true,
+				"position": [5, 5]
+			},
+			{
+				"type": "image",
+				"name": "lang_it",
+				"src": "it.png",
+				"size": [30, 16],
+				"interactable": true,
+				"position": [40, 5]
+			},
+			{
+				"type": "text",
+				"name": "start",
+				"string": "!start_game",
+				"interactable": true
+			},
+			{
+				"type": "text",
+				"name": "load",
+				"string": "!load_game",
+				"interactable": true
+			},
+			{
+				"type": "text",
+				"name": "preferences",
+				"string": "!preferences",
+				"interactable": true
+			},
+			{
+				"type": "text",
+				"name": "high_scores",
+				"string": "!high_scores",
+				"interactable": true
+			},
+			{
+				"type": "text",
+				"name": "about",
+				"string": "!about",
+				"interactable": true
+			},
+			{
+				"type": "text",
+				"name": "exit",
+				"string": "!exit_game",
+				"interactable": true
+			},
+			{
+				"type": "text",
+				"string": "{{FULL_VERSION}}",
+				"style": "version",
+				"position": [ 5, -18 ]
+			}
+		]
+	}
+}

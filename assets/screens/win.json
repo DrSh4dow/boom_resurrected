@@ -1,0 +1,48 @@
+{
+	"name": "win",
+	"parent": null,
+	"bg": "screenbg3.png",
+	"v-align": "center",
+	"layout": {
+		"styles": {
+			"default": {
+				"font": "pf_tempesta_seven_bold.ttf",
+				"character-size": 17,
+				"color": "red",
+				"spacing": 15
+			},
+			"version": {
+				"font": "pf_tempesta_seven_bold.ttf",
+				"character-size": 10,
+				"spacing": 5
+			}
+		},
+		"elements": [
+			{
+				"type": "text",
+				"string": "YOU HAVE WON!!",
+				"style-override": {
+					"character-size": 26
+				}
+			},
+			{
+				"type": "text",
+				"string": ""
+			},
+			{
+				"type": "text",
+				"string": "!win_text"
+			},
+			{
+				"type": "text",
+				"name": "start",
+				"string": "click here to continue",
+				"interactable": true,
+				"style-override": {
+					"spacing": 45,
+					"color": "blue"
+				}
+			}
+		]
+	}
+}

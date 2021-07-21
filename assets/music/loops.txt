@@ -1,0 +1,21 @@
+DMZ Beat (track 1)
+author silverweed
+-----
+loopstart
+sample 000325731
+seconds 7.386
+
+looplength
+sample 001952700
+seconds 44.279
+
+-----
+
+Spirit Party
+author l.barazzetta
+-----
+loopstart
+seconds 3.427 
+
+looplength
+seconds 106.3
